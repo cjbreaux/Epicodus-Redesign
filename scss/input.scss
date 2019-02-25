@@ -47,19 +47,36 @@
 .nav-contents {
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   border: 1px solid black;
   width: 90%;
   height: (100%/9);
 }
 
-.content {
+.main {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
   background-color: green;
 }
 
+.main-content {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  width: 98%;
+  height: (100%/5);
+    img {
+      width: 100px;
+      height: 100px;
+      margin-right: 5%;
+    }
+}
+
 .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   grid-column: span 2;
   background-color: #00B4B5;
 }
