@@ -44,6 +44,10 @@
   width: 90%;
   height: 11.1111111111%; }
 
+.nav-contents:hover {
+  background-color: #E4C9AE;
+  text-decoration: underline; }
+
 .main {
   display: flex;
   flex-direction: column;
